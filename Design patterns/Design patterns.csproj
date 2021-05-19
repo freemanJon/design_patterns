@@ -48,6 +48,10 @@
     <Compile Include="Classes\Descontos\DescontoMaisDe5Itens.cs" />
     <Compile Include="Classes\Descontos\DescontoValorMaior500.cs" />
     <Compile Include="Classes\Descontos\SemDesconto.cs" />
+    <Compile Include="Classes\Estados\Aprovado.cs" />
+    <Compile Include="Classes\Estados\EmAprovacao.cs" />
+    <Compile Include="Classes\Estados\Finalizado.cs" />
+    <Compile Include="Classes\Estados\Reprovado.cs" />
     <Compile Include="Classes\Impostos\ICMS.cs" />
     <Compile Include="Classes\Impostos\ICPP.cs" />
     <Compile Include="Classes\Impostos\IKCV.cs" />
@@ -56,6 +60,7 @@
     <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\Orcamento.cs" />
     <Compile Include="Interfaces\IDesconto.cs" />
+    <Compile Include="Interfaces\IEstadoOrcamento.cs" />
     <Compile Include="Interfaces\Imposto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
