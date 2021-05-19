@@ -56,7 +56,7 @@
     <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\Orcamento.cs" />
     <Compile Include="Interfaces\IDesconto.cs" />
-    <Compile Include="Interfaces\IImposto.cs" />
+    <Compile Include="Interfaces\Imposto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

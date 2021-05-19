@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace Design_patterns.Models
 {
-    public class ISS:IImposto
+    public class ISS:Imposto
     {
-        public double Calcula(Orcamento orcamento)
+        public ISS(Imposto imposto) : base(imposto) { }
+
+        public ISS() : base() { }
+        public override double Calcula(Orcamento orcamento)
         {
-            return orcamento.Valor * 0.06;
+            return orcamento.Valor * 0.06 + CalculoDoOutroImposto(orcamento);
         }
     }
 }

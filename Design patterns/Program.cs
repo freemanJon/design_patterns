@@ -14,8 +14,8 @@ namespace Design_patterns
     {
         static void Main(string[] args)
         {
-            IImposto iss = new ISS();
-            IImposto icms = new ICMS();
+            Imposto iss = new ISS(new ICMS());
+            Imposto icms = new ICMS();
             Orcamento orcamento = new Orcamento(500);
             orcamento.AdicionaItem(new Item("Lapis", 100));
             orcamento.AdicionaItem(new Item("Caneta", 100));
