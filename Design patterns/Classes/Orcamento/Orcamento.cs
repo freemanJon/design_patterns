@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_patterns.Models
+namespace Design_patterns.Classes.Orcamento
 {
     public class Orcamento
     {

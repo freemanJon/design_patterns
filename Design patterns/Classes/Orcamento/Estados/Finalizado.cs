@@ -1,14 +1,15 @@
 ﻿using Design_patterns.Interfaces;
-using Design_patterns.Models;
+using Design_patterns.Classes.Orcamento;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Design_patterns.Interfaces.Estados;
 
-namespace Design_patterns.Classes.Estados
+namespace Design_patterns.Classes.Orcamento.Estados
 {
-    public class Reprovado : IEstadoOrcamento
+    public class Finalizado : IEstadoOrcamento
     {
         public void AplicaDescontoExtra(Orcamento orcamento)
         {
@@ -22,7 +23,7 @@ namespace Design_patterns.Classes.Estados
 
         public void Finaliza(Orcamento orcamento)
         {
-            orcamento.EstadoAtual = new Finalizado();
+            throw new Exception("Impossivel mudanca de estado!");
         }
 
         public void Reprova(Orcamento orcamento)

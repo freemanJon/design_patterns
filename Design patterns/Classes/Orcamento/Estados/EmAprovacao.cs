@@ -1,12 +1,13 @@
 ﻿using Design_patterns.Interfaces;
-using Design_patterns.Models;
+using Design_patterns.Classes.Orcamento;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Design_patterns.Interfaces.Estados;
 
-namespace Design_patterns.Classes.Estados
+namespace Design_patterns.Classes.Orcamento.Estados
 {
     public class EmAprovacao : IEstadoOrcamento
     {
