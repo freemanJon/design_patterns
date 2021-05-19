@@ -30,5 +30,12 @@
 <img src="images/12.PNG"/>
 <img src="images/13.PNG"/>
 
+# Decorator
+<img src="images/14.PNG"/>
+<img src="images/15.PNG"/>
+<img src="images/16.PNG"/>
+
+
+
  
  
