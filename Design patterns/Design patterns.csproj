@@ -49,7 +49,10 @@
     <Compile Include="Classes\Descontos\DescontoValorMaior500.cs" />
     <Compile Include="Classes\Descontos\SemDesconto.cs" />
     <Compile Include="Classes\Impostos\ICMS.cs" />
+    <Compile Include="Classes\Impostos\ICPP.cs" />
+    <Compile Include="Classes\Impostos\IKCV.cs" />
     <Compile Include="Classes\Impostos\ISS.cs" />
+    <Compile Include="Classes\Impostos\TemplateDeImpostoCondicional.cs" />
     <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\Orcamento.cs" />
     <Compile Include="Interfaces\IDesconto.cs" />
