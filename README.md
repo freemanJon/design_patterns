@@ -39,6 +39,16 @@
 <img src="images/15.PNG"/>
 <img src="images/16.PNG"/>
 
+# State
+
+<p></p>
+<img src="images/17.PNG"/>
+<img src="images/18.PNG"/>
+<img src="images/19.PNG"/>
+<img src="images/20.PNG"/>
+<img src="images/21.PNG"/>
+
+
 
 
  
