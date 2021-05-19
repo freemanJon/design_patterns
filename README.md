@@ -31,6 +31,10 @@
 <img src="images/13.PNG"/>
 
 # Decorator
+<p>Padrao utilizado quando temos a necessidade de realizar n acoes na mesma classe ou em diferentes classes para retornar um valor, por exemplo, no Brasil temos diversos tipos de impostos, logo temos que aplicar um imposto em cima do orcamento, logo apos temos que aplicar outro, em seguida outro, ate que nao haja mais impostos para aplicar. Caso nao tivessemos esse padrao, teriamos que criar x metodos ou y classes para abrangir todas as possibilidades de combinacao, imagina o quao extenso e desorganizado nosso codigo ficaria.</p>
+
+
+<p>Utilizando o decorator iremos falar que todo imposto pode ter outroImposto, por exemplo new ISS(new ICMP()), neste caso o ISS tera o imposto ICMP, mas o ICMP nao tera outro imposto. Temos que ter agora um metodo que calcule o valor do imposto do outro imposto, entao criamos a funcao CalculaOutroImposto na classe Imposto, pois todos os impostos deveram ter esse metodo, agora podemos ver que ao chamar o metodo Calcula, o valor retornado sera o quanto deve ser aplicado + CalculaOutroImposto, isso fara que tenhamos o valor calculado de todos os impostos que estao decorados na instanciacao do imposto</p>
 <img src="images/14.PNG"/>
 <img src="images/15.PNG"/>
 <img src="images/16.PNG"/>
