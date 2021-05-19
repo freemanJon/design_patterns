@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Design_patterns.Interfaces
 {
-    public interface Imposto
+    public interface IImposto
     {
         double Calcula(Orcamento orcamento);
     }

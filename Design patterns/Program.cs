@@ -13,8 +13,8 @@ namespace Design_patterns
     {
         static void Main(string[] args)
         {
-            Imposto iss = new ISS();
-            Imposto icms = new ICMS();
+            IImposto iss = new ISS();
+            IImposto icms = new ICMS();
             Orcamento orcamento = new Orcamento(500);
             CalculadorDeImpostos calculador = new CalculadorDeImpostos();
             calculador.RealizaCalculo(orcamento, iss);

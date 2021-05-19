@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Design_patterns.Models
 {
-    public class ICMS:Imposto
+    public class ICMS:IImposto
     {
         public double Calcula(Orcamento orcamento)
         {

@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business rules\CalculadorDeDescontos.cs" />
     <Compile Include="Business rules\CalculadorDeImpostos.cs" />
-    <Compile Include="Classes\ICMS.cs" />
-    <Compile Include="Classes\ISS.cs" />
+    <Compile Include="Classes\Descontos\DescontoMaisDe5Itens.cs" />
+    <Compile Include="Classes\Descontos\DescontoValorMaior500.cs" />
+    <Compile Include="Classes\Descontos\SemDesconto.cs" />
+    <Compile Include="Classes\Impostos\ICMS.cs" />
+    <Compile Include="Classes\Impostos\ISS.cs" />
+    <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\Orcamento.cs" />
-    <Compile Include="Interfaces\Imposto.cs" />
+    <Compile Include="Interfaces\IDesconto.cs" />
+    <Compile Include="Interfaces\IImposto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
