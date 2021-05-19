@@ -13,7 +13,9 @@
 <img src="images/4.PNG"/>
 
 # Chain of responsibility
+<p> Padrao utilizado quando temos uma cadeia de responsabilidades para realizar, por exemplo, temos que ver as condicoes de um orcamento para poder aplicar um desconto em cima dele, se sairmos apenas codificando acabaremos enchendo nosso codigo de if e else if, entao toda vez que entrasse uma nova condicao de desconto teriamos que ir no metodo CalculaDesconto e adicionar mais um else if, isso faz com que o metodo fique muito extenso.</p> 
 <img src="images/5.PNG"/>
+<p>Utilizando o padrao chain of responsibility torna-se possivel a adicao de um novo desconto no projeto sem nenhum problema, como fazer isso? Sabemos que existe desconto quando tem mais de 5 itens, valor maior que 500 reais ou ate mesmo nao tem desconto. Sabemos que os 3 se tratam de um tipo de desconto, entao tem comportamentos e atributos parecidos, entao implementamos uma interface. A interface IDesconto tem como atributo e metodo, IDesconto Proximo e double Desconta(Orcamento orcamento), o atributo Proximo iremos utilizar para fazer a cadeia de responsabilidades, por exemplo: Temos o desconto quando tem mais de 5 itens, caso nao entre nessa condicao, a gente retorna a funcao desconta do proximo tipo de desconto, no caso desconto quando tem valor acima de 500, ate chegar no caso escape que seria o sem desconto que tem como retorno 0, sem um proximo desconto. Esse padrao eh interessante, pois nos definimos qual eh a cadeia que iremos seguir. Isso faz com que nao tenhamos um monte de if, tornando mais elegante o codigo, distribuindo as devidas responsabilidades para cada tipo de desconto.</p> 
 <img src="images/6.PNG"/>
 <img src="images/7.PNG"/>
 <img src="images/8.PNG"/>
