@@ -41,8 +41,9 @@
 
 # State
 
-<p></p>
+<p>O padrao utilizado quando temos que lidar com estados de algum objeto, no nosso caso estamos se referindo ao estado do orcamento, sabemos que o que orcamento tem quatro estados no momento: Em aprovacao, aprovado, reprovado e finalizado. Temos criar N estados representando ele por um inteiro, o em aprovacao como numero 1 e assim por diante, porem podemos notar que se por acaso um dia aumentassemos o numero de estados, ficaria algo enorme o codigo da classe e essa nao eh a responsabilidade principal dela. Alem do mais teriamos que ficar inserindo diversos ifs para verificar estado atual do orcamento, podendo causar uma grande confusao futuramente</p>
 <img src="images/17.PNG"/>
+<p>Utilizando o padrao State, notamos que podemos criar uma interface que se refere ao Estado como um todo, nele tera o basico que todo estado deve ter, como AplicacaoDescontoExtra e ter como transitar para outros estados(ira conhecer todos os outros estados, dependendo de qual for, podera ou nao prosseguir com a mudanca), as classes que implementarem essa interface tera como papel definir o que os metodos de cada estado ira fazer, por exemplo o Em aprovacao nao pode finalizar, mas pode aprovar e reprovar, porem se tivesse no estado aprovado, poderia finalizar somente, ja que esta aprovado e nao pode mais finalizar. Depois de implementado todas classes de estado, fica facil, pois no metodo do orcamento aplica desconto extra, ele ira pegar o estado atual que eh gerenciado por cada um dos estados e assim que o objeto eh iniciado ja comeca como em aprovcao. Esse padrao ira facilitar muito a vida quando voce estiver precisando lidar de status, pois cada status tem a sua propria responsabilidade diante dos outros estados, nao precisando encher o codigo de condicoes, deixando-o mais limpo e facil manutencao</p>
 <img src="images/18.PNG"/>
 <img src="images/19.PNG"/>
 <img src="images/20.PNG"/>
