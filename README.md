@@ -23,10 +23,10 @@
 
 # Template Method
 
-<p>Padrao utilizado quando temos duas ou mais classes que implementam um metodo que tem a estrutura identicas, por exemplo temos os impostos ICPP e IKCV, os dois antes de calcular o quanto de imposto deve cobrar, nos verficamos se deve usar maxima taxacao, verificamos de acordo com o if, caso utilizemos retornamos a maxima taxacao, caso nao devemos retornar minima taxacao.</p> 
+<p>Padrao utilizado quando temos duas ou mais classes que implementam um metodo que tem a estrutura identica, por exemplo temos os impostos ICPP e IKCV, os dois antes de calcular o quanto de imposto deve cobrar, verficamos se deve usar maxima taxacao, verificamos de acordo com o if, caso utilizemos retornamos a maxima taxacao, caso nao devemos retornar minima taxacao.</p> 
 <img src="images/10.PNG"/>
 <img src="images/11.PNG"/>
-<p>Utilizando o Template Method, nos iremos criar a estrutura base do metodo e que eh basicamente verificar se DeveUsarMaximaTaxacao, caso deva retornar MaximaTaxacao, caso nao devemos retornar MinimaTaxacao, o que isso quer dizer? Construimos a estrutura e criamos metodos abstratos(blocos daquela estrutura) que as classes que implementarem Template Method deveram definir como sera constituido cada uma das funcoes. Vantagem em utilizar o template method eh a reducao de codigo, ja que a estrutura ficara no template e tambem deixamos paras classes apenas a responsabilidade de definir como sao feitos esses comportamentos de acordo com o necessario para elas.</p> 
+<p>Utilizando o Template Method, iremos criar a estrutura base do metodo e que eh basicamente verificar se DeveUsarMaximaTaxacao, caso deva retornar MaximaTaxacao, caso nao devemos retornar MinimaTaxacao, o que isso quer dizer? Construimos a estrutura e criamos metodos abstratos(blocos daquela estrutura) que as classes que herdarem Template Method deveram definir como sera constituido cada uma das funcoes. Vantagem em utilizar o template method eh a reducao de codigo, ja que a estrutura ficara no template e tambem deixamos paras classes apenas a responsabilidade de definir como sao feitos esses comportamentos de acordo com o necessario para elas.</p> 
 <img src="images/12.PNG"/>
 <img src="images/13.PNG"/>
 
