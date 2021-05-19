@@ -10,6 +10,9 @@ namespace Design_patterns.Classes.Impostos
 {
     public class IKCV : TemplateDeImpostoCondicional
     {
+        public IKCV() : base() { }
+
+        public IKCV(Imposto imposto) : base(imposto) { }
 
         public override bool DeveUsarMaximaTaxacao(Orcamento orcamento)
         {

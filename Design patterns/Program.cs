@@ -1,5 +1,6 @@
 ﻿using Design_patterns.Business_rules;
 using Design_patterns.Classes;
+using Design_patterns.Classes.Impostos;
 using Design_patterns.Interfaces;
 using Design_patterns.Models;
 using System;
@@ -14,7 +15,7 @@ namespace Design_patterns
     {
         static void Main(string[] args)
         {
-            Imposto iss = new ISS(new ICMS());
+            Imposto iss = new ISS(new ICMS(new ICPP(new IKCV())));
             Imposto icms = new ICMS();
             Orcamento orcamento = new Orcamento(500);
             orcamento.AdicionaItem(new Item("Lapis", 100));
