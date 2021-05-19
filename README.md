@@ -12,7 +12,7 @@
 <img src="images/3.PNG"/>
 <img src="images/4.PNG"/>
 
-#Chain of responsibility
+# Chain of responsibility
 <img src="images/5.PNG"/>
 <img src="images/6.PNG"/>
 <img src="images/7.PNG"/>
