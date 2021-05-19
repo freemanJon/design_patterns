@@ -1,0 +1,7 @@
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\bin\Debug\Design patterns.exe.config
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\bin\Debug\Design patterns.exe
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\bin\Debug\Design patterns.pdb
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\obj\Debug\Design patterns.csprojAssemblyReference.cache
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\obj\Debug\Design patterns.csproj.CoreCompileInputs.cache
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\obj\Debug\Design patterns.exe
+C:\Users\Jonatan\Desktop\Aplicações\design_patterns\Design patterns\obj\Debug\Design patterns.pdb

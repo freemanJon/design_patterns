@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business rules\CalculadorDeImpostos.cs" />
+    <Compile Include="Classes\ICMS.cs" />
+    <Compile Include="Classes\ISS.cs" />
+    <Compile Include="Classes\Orcamento.cs" />
+    <Compile Include="Interfaces\Imposto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
